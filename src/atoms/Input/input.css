@@ -1,0 +1,32 @@
+.storybook-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.storybook-input__label {
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.storybook-input__field {
+  font-size: 14px;
+  border-radius: 6px;
+  line-height: 1.5;
+  padding: 5px 10px;
+  transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+  border: 2px solid #dee1e2;
+  color: rgb(14, 14, 16);
+  background: #dee1e2;
+  display: block;
+  height: 36px;
+}
+
+.storybook-input__field:hover {
+  border-color: #ccc;
+}
+
+.storybook-input__field:focus {
+  border-color: #9147ff;
+  background: #fff;
+}
