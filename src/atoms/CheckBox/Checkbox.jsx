@@ -1,9 +1,7 @@
 import PropTypes from 'prop-types';
 import './checkbox.css';
 
-/**
- * Checkbox component for user interaction
- */
+
 export const Checkbox = ({ name, value, checked, label, onChange }) => {
   return (
     <label className="storybook-checkbox">

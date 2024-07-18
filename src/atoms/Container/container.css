@@ -3,6 +3,12 @@
     border: 1px solid #ddd;
     border-radius: 4px;
     background-color: #f9f9f9;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .custom-container-class {

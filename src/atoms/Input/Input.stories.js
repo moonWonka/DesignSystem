@@ -1,5 +1,7 @@
 import { Input } from './Input';
+import { fn } from '@storybook/test';
 
+// Configuración general para el componente
 export default {
   title: 'Atomos/Input',
   component: Input,
@@ -7,48 +9,60 @@ export default {
     layout: 'centered',
   },
   tags: ['autodocs'],
+  args: { onChange: fn() },
 };
 
-export const Default = {
+// Historias específicas
+
+export const TextInput = {
   args: {
-    label: 'Name',
-    name: 'name',
-    value: '',
-    placeholder: 'Enter your name',
     type: 'text',
-    onChange: () => { console.log('Input changed'); },
+    label: 'Text Input',
+    name: 'text-input',
+    value: '',
+    placeholder: 'Enter text here',
   },
 };
 
-export const Email = {
+export const NumberInput = {
   args: {
-    label: 'Email',
-    name: 'email',
+    type: 'number',
+    label: 'Number Input',
+    name: 'number-input',
+    value: 50,
+    min: 0,
+    max: 100,
+    step: 1,
+    placeholder: 'Enter number here',
+  },
+};
+
+export const EmailInput = {
+  args: {
+    type: 'email',
+    label: 'Email Input',
+    name: 'email-input',
     value: '',
     placeholder: 'Enter your email',
-    type: 'email',
-    onChange: () => { console.log('Input changed'); },
   },
 };
 
-export const WithInitialValue = {
+export const PasswordInput = {
   args: {
-    label: 'Username',
-    name: 'username',
-    value: 'john_doe',
-    placeholder: 'Enter your username',
-    type: 'text',
-    onChange: () => { console.log('Input changed'); },
+    type: 'password',
+    label: 'Password Input',
+    name: 'password-input',
+    value: '',
+    placeholder: 'Enter your password',
   },
 };
 
-export const Number = {
+export const RutInput = {
   args: {
-    label: 'Age',
-    name: 'age',
-    value: '25',
-    placeholder: 'Enter your age',
-    type: 'number',
-    onChange: () => { console.log('Input changed'); },
+    type: 'rut',
+    label: 'RUT Input',
+    name: 'rut-input',
+    value: '',
+    placeholder: 'Enter RUT here',
   },
 };
