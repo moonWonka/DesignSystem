@@ -39,11 +39,11 @@ export const Large = {
 };
 
 export const Small = {
-  args:{
-    size:'small',
-    label:'Button',
-    backgroundColor:"#aa8dc5",
-    primary:false
+  args: {
+    size: 'small',
+    label: 'Button',
+    backgroundColor: "#aa8dc5",
+    primary: false
   },
 };
 

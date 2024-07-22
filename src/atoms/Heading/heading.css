@@ -1,0 +1,56 @@
+/* heading.css */
+
+.storybook-heading {
+    font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos específicos para cada nivel de encabezado */
+.storybook-heading.h1 {
+    font-size: 2.5em; /* Tamaño de fuente más grande para h1 */
+    margin-bottom: 0.5em;
+}
+
+.storybook-heading.h2 {
+    font-size: 2em; /* Tamaño de fuente para h2 */
+    margin-bottom: 0.5em;
+}
+
+.storybook-heading.h3 {
+    font-size: 1.75em; /* Tamaño de fuente para h3 */
+    margin-bottom: 0.5em;
+}
+
+.storybook-heading.h4 {
+    font-size: 1.5em; /* Tamaño de fuente para h4 */
+    margin-bottom: 0.5em;
+}
+
+.storybook-heading.h5 {
+    font-size: 1.25em; /* Tamaño de fuente para h5 */
+    margin-bottom: 0.5em;
+}
+
+.storybook-heading.h6 {
+    font-size: 1em; /* Tamaño de fuente para h6 */
+    margin-bottom: 0.5em;
+}
+
+/* Estilos adicionales para colores personalizados */
+.storybook-heading.primary {
+    color: #7251a8; /* Color primario */
+}
+
+.storybook-heading.secondary {
+    color: #8f6fb7; /* Color secundario */
+}
+
+.storybook-heading.tertiary {
+    color: #aa8dc5; /* Color terciario */
+}
+
+.storybook-heading.warning {
+    color: #ff6961; /* Color de advertencia */
+}
