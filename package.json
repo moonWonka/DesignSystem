@@ -4,10 +4,8 @@
   "private": false,
   "type": "module",
   "main": "dist/index.js",
-  "module": "dist/index.esm.js",
   "files": [
-    "dist",
-    "README.md"
+    "dist"
   ],
   "scripts": {
     "dev": "vite",
