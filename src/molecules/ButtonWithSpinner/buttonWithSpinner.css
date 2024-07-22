@@ -1,0 +1,8 @@
+.button-with-spinner {
+    display: flex;
+    align-items: center;
+}
+
+.button-with-spinner .spinner {
+    margin-left: 8px;
+}

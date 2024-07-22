@@ -32,7 +32,7 @@ export const Small = {
 
 export const CustomColor = {
   args: {
-    size: 'medium',
-    color: 'red',
+    size: 'small',
+    color: 'c4aad3',
   },
 };

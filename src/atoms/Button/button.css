@@ -9,14 +9,29 @@
 }
 
 .storybook-button--primary {
-    color: white;
+    color: white; /* blanco para mejor contraste */
     background-color: #7251a8;
 }
 
 .storybook-button--secondary {
-    color: #333;
-    background-color: transparent;
+    color: white; /* blanco para mejor contraste */
+    background-color: #c4aad3;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
+
+.storybook-button--large {
+    color: white; /* blanco para mejor contraste */
+    background-color: #8f6fb7;
+}
+
+.storybook-button--small {
+    color: white; /* blanco para mejor contraste */
+    background-color: #aa8dc5;
+}
+
+.storybook-button--warning {
+    color: white; /* blanco para mejor contraste */
+    background-color: red;
 }
 
 .storybook-button--small {

@@ -1,9 +1,6 @@
 import PropTypes from 'prop-types';
 import './container.css';
 
-/**
- * Container component for wrapping other elements
- */
 export const Container = ({ children, className, ...props }) => {
   return (
     <div className={`storybook-container ${className}`} {...props}>

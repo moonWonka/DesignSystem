@@ -26,5 +26,5 @@ Spinner.propTypes = {
 
 Spinner.defaultProps = {
   size: 'medium',
-  color: '#09f',
+  color: '#8f6fb7',
 };

@@ -23,14 +23,15 @@ export const Primary = {
 export const Secondary = {
   args: {
     label: 'Button Secondary',
-    backgroundColor: "orange"
+    backgroundColor: "#c4aad3"
   },
 };
 
 export const Large = {
   args: {
     size: 'large',
-    label: 'Button',
+    label: 'large Button',
+    backgroundColor: "#8f6fb7",
   },
 };
 
@@ -38,14 +39,14 @@ export const Small = {
   args: {
     size: 'small',
     label: 'Button',
+    backgroundColor: "#aa8dc5",
   },
 };
 
-
-export const Warning = {
+export const Delete = {
   args: {
     primary: true,
     label: 'Delete now',
-    backgroundColor: 'red',
+    backgroundColor: '#ff6961',
   }
 };

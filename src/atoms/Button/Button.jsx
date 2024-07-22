@@ -4,12 +4,13 @@ import './button.css';
 /**
  * Primary UI component for user interaction
  */
-export const Button = ({ primary, size, label, ...props }) => {
+export const Button = ({ primary, size, label, backgroundColor, ...props }) => {
   const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
   return (
     <button
       type="button"
       className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
+      style={{ backgroundColor }}
       {...props}
     >
       {label}
@@ -31,6 +32,10 @@ Button.propTypes = {
    */
   label: PropTypes.string.isRequired,
   /**
+   * Color de fondo del botón
+   */
+  backgroundColor: PropTypes.string,
+  /**
    * Manejador de clic opcional
    */
   onClick: PropTypes.func,
@@ -39,5 +44,6 @@ Button.propTypes = {
 Button.defaultProps = {
   primary: false,
   size: 'medium',
+  backgroundColor: null,
   onClick: undefined,
 };
