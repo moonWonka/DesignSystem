@@ -1,9 +1,13 @@
 {
   "name": "ina-health-design",
-  "version": "1.0.1",
+  "version": "1.0.2",
+  "private": false,
   "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "scripts": {
     "dev": "vite",
