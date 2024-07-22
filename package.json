@@ -3,9 +3,8 @@
   "version": "1.0.7",
   "private": false,
   "type": "module",
-  "main": "dist/assets/index.js",
   "files": [
-    "dist"
+    "storybook-static"
   ],
   "scripts": {
     "dev": "vite",
