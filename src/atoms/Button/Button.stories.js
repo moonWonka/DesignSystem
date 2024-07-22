@@ -9,6 +9,9 @@ export default {
     layout: 'centered',
   },
   tags: ['autodocs'],
+  argTypes: {
+    backgroundColor: { control: 'color' },
+  },
   args: { onClick: fn() },
 };
 
@@ -36,10 +39,11 @@ export const Large = {
 };
 
 export const Small = {
-  args: {
-    size: 'small',
-    label: 'Button',
-    backgroundColor: "#aa8dc5",
+  args:{
+    size:'small',
+    label:'Button',
+    backgroundColor:"#aa8dc5",
+    primary:false
   },
 };
 
