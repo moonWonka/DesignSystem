@@ -24,3 +24,5 @@ Container.propTypes = {
 Container.defaultProps = {
   className: '',
 };
+
+export default Container;
