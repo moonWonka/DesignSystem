@@ -1,10 +1,11 @@
 {
   "name": "ina-health-design",
-  "version": "1.0.9",
+  "version": "1.0.13",
   "private": false,
   "type": "module",
+  "main": "./dist/assets/index-DS9nwS_m.js",
   "files": [
-    "storybook-static"
+    "dist/assets/*"
   ],
   "scripts": {
     "dev": "vite",
