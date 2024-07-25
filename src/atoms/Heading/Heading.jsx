@@ -38,3 +38,5 @@ Heading.defaultProps = {
   text: "Design System",
   className: '',
 };
+
+export default Heading;
