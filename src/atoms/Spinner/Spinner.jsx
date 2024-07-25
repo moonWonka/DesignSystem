@@ -28,3 +28,5 @@ Spinner.defaultProps = {
   size: 'medium',
   color: '#8f6fb7',
 };
+
+export default Spinner;

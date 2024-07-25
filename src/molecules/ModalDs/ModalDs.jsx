@@ -36,3 +36,5 @@ ModalDs.defaultProps = {
   size: 'normal',
   buttonProps: {},
 };
+
+export default ModalDs;

@@ -36,3 +36,4 @@ ButtonWithSpinner.defaultProps = {
   },
 };
 
+export default ButtonWithSpinner;
