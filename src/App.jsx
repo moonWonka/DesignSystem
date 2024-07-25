@@ -1,11 +1,11 @@
-import { ExampleComponent } from "./Test/ExampleComponent"
+import { Button } from "../lib/index";
 
 function App() {
-  return (
-    <>
-      <ExampleComponent></ExampleComponent>
-    </>
-  )
+    return (
+        <>
+            <Button>Button</Button>
+        </>
+    );
 }
 
-export default App
+export default App;

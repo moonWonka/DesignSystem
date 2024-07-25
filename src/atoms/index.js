@@ -1,8 +1,0 @@
-export { default as Button } from './Button/Button'
-export { Button } from './Button/Button'
-export { default as Spinner } from './Spinner/Spinner'
-export { Spinner } from './Spinner/Spinner'
-export { default as Container } from './Container/Container'
-export { Container } from './Container/Container'
-export { default as Heading } from './Heading/Heading'
-export { Heading } from './Heading/Heading'
