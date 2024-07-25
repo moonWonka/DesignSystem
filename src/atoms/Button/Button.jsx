@@ -48,3 +48,5 @@ Button.defaultProps = {
   onClick: undefined,
   label: "default text"
 };
+
+export default Button;

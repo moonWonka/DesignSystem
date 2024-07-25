@@ -34,3 +34,5 @@ ContainerWithButton.defaultProps = {
   buttonProps: {},
   children: null,
 };
+
+export default ContainerWithButton;
